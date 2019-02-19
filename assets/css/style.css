@@ -1,0 +1,25 @@
+body {
+    background-image: url(../images/use.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    background-position: fixed;
+};
+
+#landingName {
+    margin: auto;
+    width: 25%;
+    border: 3px solid;
+};
+
+#name {
+    font-size: 30;
+};
+
+#title {
+    text-align: center;
+};
+
+#firstLink {
+    text-align: center;
+};
