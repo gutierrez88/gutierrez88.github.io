@@ -7,15 +7,51 @@
         <title>Francisco Ryan Gutierrez</title>
     </head>
     <body>
-        <div id=sideNav>
-            <a href="aboutMe.html" class="active" id="aboutMe">About Me</a>
-            <a href="portfolio.html" id="home">Portfolio</a>
-            <a href="resume.html" id="home">Resume</a>
-            <a href="contact.html" id="home">Contact</a>
+        <div class="parallax">
+            <div id=sideNav>
+                <a href="aboutMe.html" class="active" id="aboutMe">About Me</a>
+                <a href="portfolio.html" id="portfolio">Portfolio</a>
+                <a href="resume.html" id="resume">Resume</a>
+                <a href="contact.html" id="contact">Contact Me</a>
+            </div>
+            <div class="landingName">
+                <p id="name">Francisco "Ryan" Gutierrez</p>
+                <p id="title">Full Stack Developer</p>
+            </div>
         </div>
-        <div class="landingName"><p id="name">Francisco "Ryan" Gutierrez</p></div>
-        <div id="title">Francisco Gutierrez</div>
-        <a href="aboutMe.html" id="firstLink">Learn a Little About Me</a>
+        <div id="aboutMe">
+            <div id="aboutTitle">A little About Me</div>
+            <div><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea error obcaecati nemo fugit sed dolore dolor in rem dignissimos nihil delectus debitis, architecto repellendus. Fuga ipsam culpa porro cupiditate saepe.</p></div>
+        </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        
+    <script type=text/javascript>
+            function parallaxFade() {
+            scrollPos = $(this).scrollTop();
+            $('.landingName').css({
+                'background-position' : '50%' + (-scrollPos/4)+"px"
+            });
+            $('.landingName').css({
+                'margin-top': (scrollPos/1.75)+"px",
+                'opacity': 1-(scrollPos/100)
+            });
+        }
+        $(document).ready(function(){
+            $(window).scroll(function() {
+                parallaxFade();
+            });
+        });
+       
+       
+       // var myElement = $('.landingName');
+
+        // $(window).scroll(function(){
+        //     $(".landingName").css("opacity", 1 - $(window).scrollTop() / 250);
+        // });
+
+    </script>
     </body>
     
 </html>
