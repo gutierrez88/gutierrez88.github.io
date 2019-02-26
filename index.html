@@ -3,23 +3,43 @@
     <head>
         <meta charset=UTF-8>
         <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Quattrocento|Vidaloka" rel="stylesheet">
         <link rel="stylesheet" href="./assets/css/style.css">
         <title>Francisco Ryan Gutierrez</title>
     </head>
     <body>
         <div class="parallax">
-            <div id=sideNav>
-                <a href="aboutMe.html" class="active" id="aboutMe">About Me</a>
-                <a href="portfolio.html" id="portfolio">Portfolio</a>
-                <a href="resume.html" id="resume">Resume</a>
-                <a href="contact.html" id="contact">Contact Me</a>
+            <div class="container row">
+                <a class="col s2" href="portfolio.html" id="portfolio">Portfolio</a>
+                <div class="nav2 col s8" id="links">
+                    <a href="https://github.com/gutierrez88"><img id="git" src="assets/images/iconfinder_github_253591.svg" alt="github"></a>
+                    <a href="./index.html">
+                        <img id="home" src="assets/images/logoTry2.png" alt="Home">
+                        <img id="home2" src="assets/images/logoTryWhite.png" alt="Home">
+                    </a>
+                    <a href="https://www.linkedin.com/in/gutierrezf/"><img id="linkedin" src="assets/images/iconfinder_linkedin_252090 (1).svg" alt="Linkedin"></a>
+                </div>
+                <a class="col s2" href="resume.html" id="resume">Resume</a>
             </div>
             <div class="landingName">
                 <p id="name">Francisco "Ryan" Gutierrez</p>
                 <p id="title">Full Stack Developer</p>
             </div>
+           
         </div>
-        <div id="aboutMe">
+        <div id="aboutMeSection" class="container">
+                <div class="row">
+                    <a class="col s2" href="aboutMe.html" id="aboutMe">About Me</a>
+                    <a class="col s2" href="portfolio.html" id="portfolio">Portfolio</a>
+                    <div class="col s4 nav2" id="links">
+                        <a href="./contact.html"><img id="email" src="assets/images/iconfinder_Email_3138894.svg" alt="Email Me"></a>
+                        <a href="https://github.com/gutierrez88"><img id="git" src="assets/images/iconfinder_github_253591.svg" alt="github"></a>
+                        <a href="https://www.linkedin.com/in/gutierrezf/"><img id="linkedin" src="assets/images/iconfinder_linkedin_252090 (1).svg" alt="Linkedin"></a>
+                    </div>
+                    <a class="col s2" href="resume.html" id="resume">Resume</a>
+                    <a class="col s2" href="contact.html" id="contact">Contact Me</a>
+                </div>
             <div id="aboutTitle">A little About Me</div>
             <div><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea error obcaecati nemo fugit sed dolore dolor in rem dignissimos nihil delectus debitis, architecto repellendus. Fuga ipsam culpa porro cupiditate saepe.</p></div>
         </div>
@@ -34,8 +54,8 @@
                 'background-position' : '50%' + (-scrollPos/4)+"px"
             });
             $('.landingName').css({
-                'margin-top': (scrollPos/1.75)+"px",
-                'opacity': 1-(scrollPos/100)
+                'margin-top': (scrollPos/2)+"px",
+                'opacity': 1-(scrollPos/700)
             });
         }
         $(document).ready(function(){
