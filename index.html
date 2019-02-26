@@ -11,8 +11,8 @@
     <body>
         <div class="parallax">
             <div class="container row">
-                <a class="col s2" href="portfolio.html" id="portfolio">Portfolio</a>
-                <div class="nav2 col s8" id="links">
+                <a class="col s2 offset-s2" href="portfolio.html" id="portfolio">Portfolio</a>
+                <div class="nav2 col s4" id="links">
                     <a href="https://github.com/gutierrez88"><img id="git" src="assets/images/iconfinder_github_253591.svg" alt="github"></a>
                     <a href="./index.html">
                         <img id="home" src="assets/images/logoTry2.png" alt="Home">
@@ -28,22 +28,34 @@
             </div>
            
         </div>
-        <div id="aboutMeSection" class="container">
-                <div class="row">
-                    <a class="col s2" href="aboutMe.html" id="aboutMe">About Me</a>
-                    <a class="col s2" href="portfolio.html" id="portfolio">Portfolio</a>
-                    <div class="col s4 nav2" id="links">
-                        <a href="./contact.html"><img id="email" src="assets/images/iconfinder_Email_3138894.svg" alt="Email Me"></a>
-                        <a href="https://github.com/gutierrez88"><img id="git" src="assets/images/iconfinder_github_253591.svg" alt="github"></a>
-                        <a href="https://www.linkedin.com/in/gutierrezf/"><img id="linkedin" src="assets/images/iconfinder_linkedin_252090 (1).svg" alt="Linkedin"></a>
-                    </div>
-                    <a class="col s2" href="resume.html" id="resume">Resume</a>
-                    <a class="col s2" href="contact.html" id="contact">Contact Me</a>
+        <div id="aboutMeSection">
+            <div class="container row">
+                <a class="col s2 offset-s2" href="portfolio.html" id="portfolio2">Portfolio</a>
+                <div class="nav2 col s4" id="links">
+                    <a href="https://github.com/gutierrez88"><img id="git" src="assets/images/iconfinder_github_253591.svg" alt="github"></a>
+                    <a href="./index.html">
+                        <img id="homeLow" src="assets/images/logoTry2.png" alt="Home">
+                    </a>
+                    <a href="https://www.linkedin.com/in/gutierrezf/"><img id="linkedin" src="assets/images/iconfinder_linkedin_252090 (1).svg" alt="Linkedin"></a>
                 </div>
-            <div id="aboutTitle">A little About Me</div>
-            <div><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea error obcaecati nemo fugit sed dolore dolor in rem dignissimos nihil delectus debitis, architecto repellendus. Fuga ipsam culpa porro cupiditate saepe.</p></div>
+                <a class="col s2" href="resume.html" id="resume2">Resume</a>
+            </div>
+            <div class="container">
+                <div class="" id="aboutTitle">A little About Me</div>
+                <div id="info">
+                    <img id="me" src="assets/images/me.jpeg">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea error obcaecati nemo fugit sed dolore dolor in rem dignissimos nihil delectus debitis, architecto repellendus. Fuga ipsam culpa porro cupiditate saepe.</p>
+                </div>
+            </div>
+            <footer>
+                    <div class="foot">
+                        <p>Website design and built by Ryan Gutierrez.</p>
+                        <p>To send Ryan a message email fgutier16@gmail.com</p>
+                    </div>
+                </footer>
         </div>
-    
+
+        
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         
@@ -54,8 +66,8 @@
                 'background-position' : '50%' + (-scrollPos/4)+"px"
             });
             $('.landingName').css({
-                'margin-top': (scrollPos/2)+"px",
-                'opacity': 1-(scrollPos/700)
+                'margin-top': (scrollPos/2.5)+"px",
+                'opacity': 1-(scrollPos/500)
             });
         }
         $(document).ready(function(){
