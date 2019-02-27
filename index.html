@@ -41,49 +41,49 @@
                 <a class="col s2" href="resume.html" id="resume2">Resume</a>
             </div>
             <div class="container">
-                <div class="" id="aboutTitle">A little About Me</div>
+                <div id="aboutTitle">A little About Me</div>
                 <div id="info">
-                    <img id="me" src="assets/images/me.jpeg">
+                    <img class="responsive-img" id="me" src="assets/images/me.jpeg">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea error obcaecati nemo fugit sed dolore dolor in rem dignissimos nihil delectus debitis, architecto repellendus. Fuga ipsam culpa porro cupiditate saepe.</p>
                 </div>
+                <div class="clear"></div>
             </div>
             <footer>
-                    <div class="foot">
-                        <p>Website design and built by Ryan Gutierrez.</p>
-                        <p>To send Ryan a message email fgutier16@gmail.com</p>
-                    </div>
-                </footer>
+                <p>Website design and built by Ryan Gutierrez.</p>
+                <p>To send Ryan a message email fgutier16@gmail.com</p>
+            </footer>
         </div>
 
         
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            
+        <script type=text/javascript>
+                function parallaxFade() {
+                scrollPos = $(this).scrollTop();
+                $('.landingName').css({
+                    'background-position' : '50%' + (-scrollPos/4)+"px"
+                });
+                $('.landingName').css({
+                    'margin-top': (scrollPos/2.5)+"px",
+                    'opacity': 1-(scrollPos/500)
+                });
+            }
+            $(document).ready(function(){
+                $(window).scroll(function() {
+                    parallaxFade();
+                });
+            });
         
-    <script type=text/javascript>
-            function parallaxFade() {
-            scrollPos = $(this).scrollTop();
-            $('.landingName').css({
-                'background-position' : '50%' + (-scrollPos/4)+"px"
-            });
-            $('.landingName').css({
-                'margin-top': (scrollPos/2.5)+"px",
-                'opacity': 1-(scrollPos/500)
-            });
-        }
-        $(document).ready(function(){
-            $(window).scroll(function() {
-                parallaxFade();
-            });
-        });
-       
-       
-       // var myElement = $('.landingName');
+        
+        // var myElement = $('.landingName');
 
-        // $(window).scroll(function(){
-        //     $(".landingName").css("opacity", 1 - $(window).scrollTop() / 250);
-        // });
+            // $(window).scroll(function(){
+            //     $(".landingName").css("opacity", 1 - $(window).scrollTop() / 250);
+            // });
 
-    </script>
+        </script>
     </body>
     
 </html>
