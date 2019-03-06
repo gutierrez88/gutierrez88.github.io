@@ -2,6 +2,7 @@ html, body{
     height:100%;
 }
 
+/*---------- Navs----------*/
 #portfolio{
     margin-top: 35px;
     text-align: center;
@@ -40,6 +41,30 @@ html, body{
     text-align: center;
 }
 
+#git{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#linkedin{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#home{
+    height: 78px;
+    width: 104px;
+}
+
+#home2{
+    height: 78px;
+    width: 104px;
+}
+/*---------- Front Page----------*/
 .landingName {
     position: absolute;
     top: 50%;
@@ -49,6 +74,17 @@ html, body{
     width: 75%;
     text-align: center;
     font-family: 'Kaushan Script', cursive;
+}
+
+#name {
+    font-size: 64px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#title {
+    font-size: 45px;
+    color: white;
 }
 
 #down {
@@ -71,45 +107,7 @@ html, body{
     margin-left: -45px;
 }
 
-#name {
-    font-size: 64px;
-    color: white;
-    margin-bottom: 5px;
-}
-
-#title {
-    font-size: 45px;
-    color: white;
-}
-
-#git{
-    height: 40px;
-    width: 40px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-}
-
-#linkedin{
-    height: 40px;
-    width: 40px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-}
-
-#homeLow{
-    height: 78px;
-    width: 104px;
-}
-
-#home{
-    height: 78px;
-    width: 104px;
-}
-
-#home2{
-    height: 78px;
-    width: 104px;
-}
+/*---------- About Me----------*/
 
 #aboutMeSection{
     min-height: calc(100% - 82px);
@@ -162,32 +160,24 @@ html, body{
     }
 }
 
-@media screen and (orientation: landscape) {
-    .parallax {
-        background-image: url("../images/background1.jpeg");
-        height: 100%; 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    #home2 {
-        display: none;
-    }
-
-    #me{
-        max-height: 200px;
-        width: auto;
-        border-radius: 25px;
-        padding: 2px;
-        border: 1px solid black;
-        float: left;
-        margin-right: 20px;
-        margin-bottom: 10px;
-    }
+/*---------- Skills Section ----------*/
+#skills{
+    color: white;
+    padding: 20px 0px 30px 0px;
 }
 
+li {
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+}
+
+li > img {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+/*---------- Footer ----------*/
 footer {
     background-image: linear-gradient(to top, #5a5b61, black);
     width: 100%;
@@ -196,10 +186,6 @@ footer {
 
 #left{
     margin: 29px 0px 29px 0px;
-}
-
-.row{
-    margin-bottom: -2px;
 }
 
 #portfolio3{
@@ -247,28 +233,41 @@ footer {
     margin:20px 10px 20px  10px;
 }
 
-#skills{
-    color: white;
-    padding: 20px 0px 30px 0px;
+/*---------- Screen Orientation ----------*/
+@media screen and (orientation: landscape) {
+    .parallax {
+        background-image: url("../images/background1.jpeg");
+        height: 100%; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #home2 {
+        display: none;
+    }
+
+    #me{
+        max-height: 200px;
+        width: auto;
+        border-radius: 25px;
+        padding: 2px;
+        border: 1px solid black;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
 }
 
-li {
-    padding: 10px 5px 10px 5px;
-    text-align: center;
-}
-
-li > img {
-    height: 50px;
-    width: 50px;
-    text-align: center;
-}
-
-#right {
-    
+/*---------- Other ----------*/
+.row{
+    margin-bottom: -2px;
 }
 
 .clear{
     clear: both;
    }
+   
 /* font-family: 'Quattrocento', serif;
 font-family: 'Vidaloka', serif; */
