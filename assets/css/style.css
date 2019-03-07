@@ -11,7 +11,7 @@ html, body{
     font-size: 20px;
 }
 
-#resume{
+#contact{
     margin-top: 35px;
     text-align: center;
     font-family: 'Quattrocento', serif;
@@ -27,7 +27,7 @@ html, body{
     font-size: 20px;
 }
 
-#resume2{
+#contact2{
     margin-top: 35px;
     text-align: center;
     font-family: 'Quattrocento', serif;
@@ -130,36 +130,6 @@ html, body{
     color: white;
 }
 
-#info {
-    margin-bottom: 100px;
-}
-
-@media screen and (orientation: portrait) {
-    .parallax {
-        background-image: url("../images/background.jpeg");
-        height: 100%; 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    #home {
-        display: none;
-    }
-
-    #me{
-        max-height: 300px;
-        width: auto;
-        border-radius: 25px;
-        padding: 2px;
-        border: 1px solid black;
-        float: left;
-        margin-right: 20px;
-        margin-bottom: 10px;
-    }
-}
-
 /*---------- Skills Section ----------*/
 #skills{
     color: white;
@@ -181,23 +151,14 @@ li > img {
 footer {
     background-image: linear-gradient(to top, #5a5b61, black);
     width: 100%;
-    height: 90px;
+    height: 102px;
 }
 
 #left{
-    margin: 29px 0px 29px 0px;
+    margin: 41px 0px 0px 0px;
 }
 
 #portfolio3{
-    text-align: center;
-    font-family: 'Quattrocento', serif;
-    color: white;
-    font-size: 20px;
-    padding: 0px 5px 0px 5px;
-    border-right: 1px solid white;
-}
-
-#resume3{
     text-align: center;
     font-family: 'Quattrocento', serif;
     color: white;
@@ -215,22 +176,22 @@ footer {
 }
 
 #emailMe3{
-    height: 40px;
-    width: 40px;
-    margin: 20px 10px 20px 10px;
+    height: 60px;
+    width: 60px;
+    margin: 20px 10px 0px 10px;
 }
 
 #git3{
-    height: 40px;
-    width: 40px;
-    margin:20px 10px 20px 0px;
+    height: 60px;
+    width: 60px;
+    margin:20px 10px 0px 0px;
     
 }
 
 #linkedin3{
-    height: 40px;
-    width: 40px;
-    margin:20px 10px 20px  10px;
+    height: 60px;
+    width: 60px;
+    margin:20px 0px 0px  10px;
 }
 
 /*---------- Screen Orientation ----------*/
@@ -257,6 +218,39 @@ footer {
         float: left;
         margin-right: 20px;
         margin-bottom: 10px;
+    }
+
+    #info {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .parallax {
+        background-image: url("../images/background.jpeg");
+        height: 100%; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #home {
+        display: none;
+    }
+
+    #me{
+        max-height: 300px;
+        width: auto;
+        border-radius: 25px;
+        padding: 2px;
+        border: 1px solid black;
+        margin: 10px 0px 30px 0px;
+    }
+
+    #info {
+        text-align: center;
+        margin-bottom: 100px;
     }
 }
 
