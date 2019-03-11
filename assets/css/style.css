@@ -157,6 +157,10 @@ html, body{
     padding: 10px;
 }
 
+#wholeForm{
+    padding-top: 30px;
+}
+
 /*---------- Skills Section ----------*/
 #skills{
     color: white;
