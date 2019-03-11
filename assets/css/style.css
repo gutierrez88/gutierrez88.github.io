@@ -110,7 +110,7 @@ html, body{
 /*---------- About Me----------*/
 
 #aboutMeSection{
-    min-height: calc(100% - 82px);
+    min-height: calc(100% - 100px);
     background-image: linear-gradient(#5a5b61, #cfd0d1);
     position: relative;
 }
@@ -123,11 +123,38 @@ html, body{
 }
 
 #skillTitle {
-    text-align: center;
-    
+    text-align: center;   
     font-size: 64px;
     padding-bottom: 20px;
     color: white;
+}
+
+/*---------- Contact ----------*/
+#contactMeMain{
+    min-height: calc(100% - 190px);
+    margin-bottom: 2px;
+    background-color:#a8a8a8;
+}
+
+#nav {
+    background-image: linear-gradient(to bottom, #5a5b61, black);
+    height: 90px;
+    width: 100%;
+}
+
+#homeIndex{
+    height: 78px;
+    width: 104px;
+}
+
+#formContent{
+    padding-bottom: 20px;
+}
+
+#ptag{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
 }
 
 /*---------- Skills Section ----------*/
@@ -151,7 +178,7 @@ li > img {
 footer {
     background-image: linear-gradient(to top, #5a5b61, black);
     width: 100%;
-    height: 102px;
+    height: 100px;
 }
 
 #left{
@@ -175,7 +202,7 @@ footer {
     padding: 0px 5px 0px 5px;
 }
 
-#emailMe3{
+#contact3{
     height: 60px;
     width: 60px;
     margin: 20px 10px 0px 10px;
@@ -261,7 +288,7 @@ footer {
 
 .clear{
     clear: both;
-   }
+}
    
 /* font-family: 'Quattrocento', serif;
 font-family: 'Vidaloka', serif; */
