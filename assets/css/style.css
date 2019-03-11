@@ -133,10 +133,11 @@ html, body{
 #contactMeMain{
     min-height: calc(100% - 190px);
     margin-bottom: 2px;
+    background-color:#a8a8a8;
 }
 
 #nav {
-    background-image: linear-gradient(to top, #5a5b61, black);
+    background-image: linear-gradient(to bottom, #5a5b61, black);
     height: 90px;
     width: 100%;
 }
@@ -152,7 +153,7 @@ html, body{
 
 #ptag{
     margin: auto;
-    width: 70%;
+    width: 100%;
     padding: 10px;
 }
 
