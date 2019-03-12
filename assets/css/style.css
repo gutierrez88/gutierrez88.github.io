@@ -159,7 +159,7 @@ html, body{
 }
 
 #projects{
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 /*---------- Skills Section ----------*/
@@ -180,9 +180,9 @@ li {
     text-align: center;
 }
 
-li > img {
-    height: 50px;
-    width: 50px;
+.tech {
+    height: 100px;
+    width: 100px;
     text-align: center;
 }
 
