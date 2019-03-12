@@ -125,7 +125,6 @@ html, body{
 /*---------- Contact ----------*/
 #contactMeMain{
     min-height: calc(100% - 190px);
-    margin-bottom: 2px;
     background-color:#a8a8a8;
 }
 
@@ -188,9 +187,9 @@ li > img {
     max-width: 300px;
 }
  #projectRows {
-     margin: 20px 0px 20px 0px;
-
+     padding: 20px 0px 20px 0px;
  }
+
 /*---------- Footer ----------*/
 footer {
     background-image: linear-gradient(to top, #5a5b61, black);
@@ -235,7 +234,7 @@ footer {
 #linkedin3{
     height: 60px;
     width: 60px;
-    margin:20px 0px 0px  10px;
+    margin: 20px 0px 0px  10px;
 }
 
 /*---------- Screen Orientation ----------*/
@@ -284,7 +283,7 @@ footer {
     }
 
     #me{
-        max-height: 300px;
+        max-height: 400px;
         width: auto;
         border-radius: 25px;
         padding: 2px;
@@ -299,10 +298,6 @@ footer {
 }
 
 /*---------- Other ----------*/
-.row{
-    margin-bottom: -2px;
-}
-
 .clear{
     clear: both;
 }

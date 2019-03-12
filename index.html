@@ -24,30 +24,47 @@
                     <a class="col s2" href="./contact.html" id="contact">Contact</a>
                 </div>
             </div>
+            
             <div class="landingName">
                 <p id="name">Francisco "Ryan" Gutierrez</p>
                 <p id="title">Full Stack Developer</p>
                 <a id="down" href="#aboutMeSection"></a>
             </div>
         </div>
+        
         <div id="aboutMeSection">
             <div class="container">
-                <div id="aboutTitle">A Little About Me</div>
+                <div id="aboutTitle">
+                    <span>A Little About Me</span>
+                </div>
+                
                 <div id="info">
                     <img class="responsive-img" id="me" src="assets/images/me.jpeg">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea error obcaecati nemo fugit sed dolore dolor in rem dignissimos nihil delectus debitis, architecto repellendus. Fuga ipsam culpa porro cupiditate saepe.</p>
                 </div>
                 <div class="clear"></div>
-                <hr>
-                
             </div>
         </div>
+        
+        <footer>
+            <div class="row">
+                <div class="col s4" id="left">
+                    <a href="portfolio.html" id="portfolio3">Portfolio</a>
+                    <a href="index.html" id="home3">About Me</a>
+                </div>
+                <div class="col s6 offset-s2 right-align" id="right">
+                    <a href="https://github.com/gutierrez88"><img id="git3" src="assets/images/iconfinder_github_253591.svg" alt="github"></a>
+                    <a href="./contact.html"><img id="contact3" src="assets/images/iconfinder_Contact_Alt_86904.png" alt="Contact Me"></a>
+                    <a href="https://www.linkedin.com/in/gutierrezf/"><img id="linkedin3" src="assets/images/iconfinder_linkedin_252090 (1).svg" alt="Linkedin"></a>
+                </div>
+            </div>
+        </footer>
 
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src="./assets/javascript/materialize.js"></script>
             
         <script type=text/javascript>
-                function parallaxFade() {
+            function parallaxFade() {
                 scrollPos = $(this).scrollTop();
                 $('.landingName').css({
                     'background-position' : '50%' + (-scrollPos/4)+"px"
@@ -57,6 +74,7 @@
                     'opacity': 1-(scrollPos/275)
                 });
             }
+
             $(document).ready(function(){
                 $(window).scroll(function() {
                     parallaxFade();
@@ -78,17 +96,4 @@
 
         </script>
     </body>
-    <footer>
-        <div class="row">
-            <div class="col s4" id="left">
-                <a href="portfolio.html" id="portfolio3">Portfolio</a>
-                <a href="index.html" id="home3">About Me</a>
-            </div>
-            <div class="col s6 offset-s2 right-align" id="right">
-                <a href="https://github.com/gutierrez88"><img id="git3" src="assets/images/iconfinder_github_253591.svg" alt="github"></a>
-                <a href="./contact.html"><img id="contact3" src="assets/images/iconfinder_Contact_Alt_86904.png" alt="Contact Me"></a>
-                <a href="https://www.linkedin.com/in/gutierrezf/"><img id="linkedin3" src="assets/images/iconfinder_linkedin_252090 (1).svg" alt="Linkedin"></a>
-            </div>
-        </div>
-    </footer>
 </html>
