@@ -153,6 +153,15 @@ html, body{
     padding-top: 30px;
 }
 
+/*---------- Portfolio ----------*/
+#mainPortfolio{
+    min-height: calc(100% - 190px);
+}
+
+#projects{
+    margin-bottom: 50px;
+}
+
 /*---------- Skills Section ----------*/
 #skills{
     color: white;
@@ -176,19 +185,6 @@ li > img {
     width: 50px;
     text-align: center;
 }
-
-/*---------- Portfolio ----------*/
-#mainPortfolio{
-    min-height: calc(100% - 190px);
-}
-
-#projectImg{
-    height: auto;
-    max-width: 300px;
-}
- #projectRows {
-     padding: 20px 0px 20px 0px;
- }
 
 /*---------- Footer ----------*/
 footer {
