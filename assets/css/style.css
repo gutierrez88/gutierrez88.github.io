@@ -111,7 +111,7 @@ html, body{
 
 #aboutMeSection{
     min-height: calc(100% - 100px);
-    background-image: linear-gradient(#5a5b61, #cfd0d1);
+    background-image: linear-gradient( #e0daeb,#856eb0);
     position: relative;
 }
 
@@ -125,7 +125,7 @@ html, body{
 /*---------- Contact ----------*/
 #contactMeMain{
     min-height: calc(100% - 190px);
-    background-color:#a8a8a8;
+    background-image: linear-gradient(to top, #e0daeb,#856eb0);
 }
 
 #nav {
