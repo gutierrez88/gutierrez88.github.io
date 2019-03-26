@@ -122,6 +122,11 @@ html, body{
     margin-bottom: 20px;
 }
 
+.paraAboutMe {
+    font-family: 'Exo 2', sans-serif;
+    line-height: 27px;
+}
+
 /*---------- Contact ----------*/
 #contactMeMain{
     min-height: calc(100% - 190px);
@@ -147,6 +152,7 @@ html, body{
     margin: auto;
     width: 100%;
     padding: 10px;
+    font-size: 26px;
 }
 
 #wholeForm{
@@ -257,10 +263,6 @@ footer {
         float: left;
         margin-right: 20px;
         margin-bottom: 10px;
-    }
-
-    #info {
-        margin-bottom: 100px;
     }
 }
 
