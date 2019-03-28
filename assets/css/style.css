@@ -132,6 +132,7 @@ html, body{
 #contactMeMain{
     min-height: calc(100% - 190px);
     background-image: linear-gradient(to top, #e0daeb,#856eb0);
+    =
 }
 
 #nav {
@@ -146,7 +147,7 @@ html, body{
 }
 
 #formContent{
-    padding-bottom: 20px;
+    padding-bottom: 20px;=
 }
 
 #ptag{
@@ -154,11 +155,18 @@ html, body{
     width: 100%;
     padding: 10px;
     font-size: 26px;
+    font-family: 'Exo 2', sans-serif;
 }
 
 #wholeForm{
     padding-top: 30px;
 }
+
+#resume {
+     font-size: 30px;
+     padding: 20px;
+     font-family: 'Exo 2', sans-serif;
+ }
 
 /*---------- Portfolio ----------*/
 #mainPortfolio{
